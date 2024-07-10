@@ -1,1 +1,0 @@
-- [ ] Update README to for serving API from Vite plugin
