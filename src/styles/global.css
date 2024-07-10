@@ -1,0 +1,25 @@
+@import url(https://unpkg.com/tailwindcss@3.4.4/src/css/preflight.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+#nprogress {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  z-index: 9999;
+}
+
+#nprogress .bar {
+  height: 4;
+  width: "100%";
+}
